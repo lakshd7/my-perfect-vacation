@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.cover {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+}
+
+.cover video {
+  filter: brightness(0.7);
+}
+
+.cover .content {
+  position: absolute;
+  margin-inline: 60px;
+  text-align: center;
+  mix-blend-mode: difference;
+  color: #e6e6e6;
+}
+
+.cover .content h1 {
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.cover .content p {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.title {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title .background {
+  position: absolute;
+  height: inherit;
+  width: 100%;
+  scale: 1.3;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(https://images.hdqwalls.com/wallpapers/switzerland-landscape-4k-hd.jpg);
+}
+
+.title h1 {
+  text-align: center;
+  color: #68c5ff;
+  mix-blend-mode: difference;
+  font-size: 140px;
+  font-weight: 900;
+  margin-inline: 100px;
+}
+
+.intro {
+  position: relative;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://wallpapercave.com/wp/wp4233390.jpg);
+}
+
+.intro p {
+  margin-inline: 90px;
+  font-weight: 900;
+  font-size: 35px;
+  mix-blend-mode: color-burn;
+  color: #00420d;
+  text-align: center;
+}
+
+.mountains {
+  position: relative;
+  height: 650px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://images.hdqwalls.com/wallpapers/beautiful-morning-in-mountains-4k-pc.jpg);
+}
+
+.mountains p {
+  margin-inline: 90px;
+  font-weight: 900;
+  font-size: 40px;
+  mix-blend-mode: color-burn;
+  color: #222222;
+  text-align: center;
+}
+
+.chocolate {
+  position: relative;
+  height: 700px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(https://cdn.wallpapersafari.com/53/75/QqEgV8.jpg);
+}
+
+.chocolate p {
+  margin-inline: 90px;
+  font-weight: 800;
+  font-size: 37px;
+  mix-blend-mode: hard-light;
+  color: #ffffff;
+  text-shadow: 5px 5px 20px #040404b6;
+  text-align: center;
+}
